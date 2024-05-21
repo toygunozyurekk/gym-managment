@@ -1,0 +1,3 @@
+Toygun,Özyürek,admin,12345,Yönetici
+Ebru,Boyacı,eb,12345,Antrenör
+eran,kargi,erean,12345,Antrenör
