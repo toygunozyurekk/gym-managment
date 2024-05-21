@@ -21,47 +21,41 @@ Welcome to the Gym Management System, a comprehensive application developed in J
 
 ## Project Structure
 
-The project follows a well-organized structure to maintain clarity and separation of concerns:
+The project follows a well-organized structure to maintain clarity and separation of concerns. Here's an overview of the main directories and their purpose:
 
-data
-├── src
-│ ├── assets
-│ ├── controller
-│ │ ├── AylikButceController.java
-│ │ ├── CalisanController.java
-│ │ ├── MusteriController.java
-│ │ └── UrunController.java
-│ ├── model
-│ │ ├── AylikButce.java
-│ │ ├── Calisan.java
-│ │ ├── Musteri.java
-│ │ └── Urun.java
-│ ├── util
-│ │ ├── ComponentFactory.java
-│ │ └── DosyalIslemleri.java
-│ ├── view
-│ │ ├── AnaPanel.java
-│ │ ├── AylikButcePaneli.java
-│ │ ├── CalisanCikarmaPaneli.java
-│ │ ├── CalisanEklemePaneli.java
-│ │ ├── DersSaatiAyarlamaPaneli.java
-│ │ ├── GirisPaneli.java
-│ │ ├── MusteriCikarmaPaneli.java
-│ │ ├── MusteriEklemePaneli.java
-│ │ ├── MusteriOdemePaneli.java
-│ │ ├── UrunCikarmaPaneli.java
-│ │ └── UrunEklemePaneli.java
-│ └── Main.java
-└── README.md
+### src/
+- **assets/**: Contains static resources and assets used in the application.
+  
+- **controller/**
+  - `AylikButceController.java`: Handles monthly budget operations.
+  - `CalisanController.java`: Manages employee-related operations.
+  - `MusteriController.java`: Controls customer-related operations.
+  - `UrunController.java`: Manages product-related operations.
+  
+- **model/**
+  - `AylikButce.java`: Represents the monthly budget data model.
+  - `Calisan.java`: Represents the employee data model.
+  - `Musteri.java`: Represents the customer data model.
+  - `Urun.java`: Represents the product data model.
 
+- **util/**
+  - `ComponentFactory.java`: Contains utility methods for component creation.
+  - `DosyalIslemleri.java`: Handles file operations.
 
-### Detailed Description
+- **view/**
+  - `AnaPanel.java`: Main panel of the application.
+  - `AylikButcePaneli.java`: Panel for managing monthly budgets.
+  - `CalisanCikarmaPaneli.java`: Panel for removing employees.
+  - `CalisanEklemePaneli.java`: Panel for adding employees.
+  - `DersSaatiAyarlamaPaneli.java`: Panel for scheduling training sessions.
+  - `GirisPaneli.java`: Login panel.
+  - `MusteriCikarmaPaneli.java`: Panel for removing customers.
+  - `MusteriEklemePaneli.java`: Panel for adding customers.
+  - `MusteriOdemePaneli.java`: Panel for managing customer payments.
+  - `UrunCikarmaPaneli.java`: Panel for removing products.
+  - `UrunEklemePaneli.java`: Panel for adding products.
 
-- **controller**: Contains controllers for managing budgets, employees, customers, and products.
-- **model**: Houses the core data models used throughout the system.
-- **util**: Includes utility classes and general-purpose components like file operations.
-- **view**: Contains the user interface panels for interacting with the system.
-- **Main.java**: The main entry point of the application.
+- `Main.java`: The main entry point of the application.
 
 ## Installation
 
